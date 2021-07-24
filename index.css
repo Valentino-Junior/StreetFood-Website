@@ -28,6 +28,39 @@ footer{
 }.contact{
     background-color: #FFD77C;
     padding: 20px;
+    text-align: center;
+}
+.contact > h1 > span{
+    color: #6CB840;
+}
+.contact > p{
+    width: 230px;
+    margin-left: 500px;   
+}
+#email{
+    background-color: white;
+    background-clip: content-box;
+    width: 500px;
+    margin-left: 300px;
+    padding:20px;
+    border-radius:80px ;
+}
+#email > p{
+    margin: 8px;
+    text-align: left;
+}
+#send{
+    background-color: #6CB840;
+    background-clip: content-box;
+    border-radius: 40px;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    width: 120px;
+    margin-left: 550px;
+}
+#send > P{
+    margin: 8px;
 
 }
 .hot{
