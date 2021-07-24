@@ -1,5 +1,4 @@
 
-}
 .food > h1{
     color: #6CB840;
 }
@@ -22,26 +21,30 @@ header{
 nav > ul>li {
     display: flex;
 }
-footer{
-    background-color:#C9ECB5 ;
-    padding: 10px;
-}.contact{
+.contact{
     background-color: #FFD77C;
-    padding: 20px;
-    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 100px;
+    
+
 }
+.contact > h1{
+    margin-left: 500px;
+}
+
 .contact > h1 > span{
     color: #6CB840;
 }
 .contact > p{
     width: 230px;
-    margin-left: 500px;   
+    margin-left: 470px;  
+    text-align: center; 
 }
 #email{
     background-color: white;
     background-clip: content-box;
     width: 500px;
-    margin-left: 300px;
+    margin-left: 320px;
     padding:20px;
     border-radius:80px ;
 }
@@ -78,4 +81,35 @@ footer{
 }
 .menu > h1 > span{
     color: #6CB840;
+}
+.day{
+    float: left;
+    margin-right: 100px;
+   
+    
+}
+.numbers{
+    float: left;
+    margin-top: 40px;
+    padding: 0px;
+}
+.follow{
+    float: right;
+    margin-right: 200px;
+}
+footer{
+    background-color:#C9ECB5 ;
+    background-clip: border-box;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}
+#send2{
+    position: relative;
+    margin-left: 1150px;
+    text-align: center;
+display: flex;
+padding-top: 80px;
+background-color: red;
+
+
 }
