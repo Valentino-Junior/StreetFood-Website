@@ -1,12 +1,12 @@
 
 .food > h1{
-    color: green;
+    color: #6CB840;
 }
 header{
     background-color: grey;
 }
 .food > h1 > span{
-    color: yellow;
+    color:#EAAB1B;
 }
 #order{
     background-color: #6CB840;
