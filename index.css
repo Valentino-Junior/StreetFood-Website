@@ -20,3 +20,7 @@ header{
 nav > ul>li {
     display: flex;
 }
+footer{
+    background-color:#C9ECB5 ;
+    padding: 10px;
+}
