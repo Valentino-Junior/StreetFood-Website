@@ -1,9 +1,10 @@
 
+}
 .food > h1{
     color: #6CB840;
 }
 header{
-    background-color: grey;
+    background-color:lightgray;
 }
 .food > h1 > span{
     color:#EAAB1B;
@@ -32,4 +33,7 @@ footer{
 .hot{
     background-color:#C9ECB5 ;
     padding: 20px;
+}
+.menu{
+    background-color: lightgrey;
 }
