@@ -1,6 +1,9 @@
 .food > h1{
     color: green;
 }
-nav > ul{
+.food > h1 > span{
+    color: yellow;
+}
+nav > ul>li {
     display: flex;
 }
