@@ -1,3 +1,4 @@
+
 .food > h1{
     color: green;
 }
@@ -28,5 +29,7 @@ footer{
     padding: 20px;
 
 }
-
+.hot{
+    background-color:#C9ECB5 ;
+    padding: 20px;
 }
