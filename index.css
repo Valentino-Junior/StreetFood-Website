@@ -31,9 +31,18 @@ footer{
 
 }
 .hot{
-    background-color:#C9ECB5 ;
+    background-color:#C9ECB5;
     padding: 20px;
+}
+.hot > h2 > span{
+    color: #6CB840;
+}
+.hot > h1{
+    color: #6CB840;
 }
 .menu{
     background-color: lightgrey;
+}
+.menu > h1 > span{
+    color: #6CB840;
 }
