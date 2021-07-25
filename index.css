@@ -96,12 +96,11 @@ nav > ul>li {
 .menu > h1 > span{
     color: #6CB840;
 }
-#hot2 > p{
+.menu > h1{
     text-align: center;
 }
-#hot2{
- 
-    
+#hot2 > p{
+    text-align: center;
 }
 .day{
     float: left;
@@ -144,17 +143,22 @@ display: flex;
 }
 .eat > h1{
     color: #EAAB1B;
-    margin-left: 900px;
+    margin-left: 600px;
+}
+
+.eat{
+    text-align: center;
+    padding: 150px;
+    background-image:url(./eating_together.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    
 }
 .eat > p{
     text-align: center;
-    margin-left: 950px;
-    padding-right: 20px;
+    margin-left: 600px;
 
-}
-.eat{
-    text-align: center;
-    padding: 50px;
 }
 nav > ul{
     display: flex;
@@ -171,12 +175,32 @@ nav > ul > li > a{
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 70px;
+    padding-top: 10px;
 }
 .flex-container > #one, #two,#three,#four,#five,#six{
     background-color: white;
     padding: 20px;
-    border-bottom-right-radius: 30px;
-    width: 250px;
-    margin: 40px;
+    border-bottom-right-radius: 40px;
+    width: 210px;
+    height: 130px;
+    margin: 40px; 
+        
+}
+#one >p,#two >p,#three >p,#four >p,#five >p,#six >p{
+    text-align: center;
+    margin-left: 70px;
+}
+#image1{
+    height: -500px;
+    width: -500px;
+}
+#one >img{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-left: 0px;
+
     
+
+
 }
