@@ -127,14 +127,19 @@ footer{
     padding-bottom: 150px;
 }
 #send2{
-    position: relative;
     margin-left: 1150px;
     text-align: center;
-display: flex;
 padding-top: 80px;
-background-color: red;
-
-
+display: flex;
+}
+#send2 > p{
+    background-color: #6CB840;
+    background-clip: padding-box;
+    padding:5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    color: white;   
 }
 .eat > h1{
     color: #EAAB1B;
