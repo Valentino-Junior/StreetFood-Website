@@ -8,6 +8,13 @@ header{
 .food > h1 > span{
     color:#EAAB1B;
 }
+.food > p{
+    text-align: justify;
+    margin-right: 850px;
+}
+.food{
+padding-left: 50px;
+}
 #order{
     background-color: #6CB840;
     background-clip: content-box;
@@ -17,6 +24,9 @@ header{
     padding: 1px;
     text-align: center;
     color: white;
+}
+#order > p{
+    margin: 8px;
 }
 nav > ul>li {
     display: flex;
@@ -111,5 +121,20 @@ display: flex;
 padding-top: 80px;
 background-color: red;
 
+
+}
+.eat > h1{
+    color: #EAAB1B;
+    margin-left: 900px;
+}
+.eat > p{
+    text-align: center;
+    margin-left: 950px;
+    padding-right: 20px;
+
+}
+.eat{
+    text-align: center;
+    padding: 50px;
 
 }
