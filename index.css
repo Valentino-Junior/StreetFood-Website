@@ -106,6 +106,8 @@ nav > ul>li {
 .day{
     float: left;
     margin-right: 100px;
+    border-right-style: dotted;
+    padding-right: 50px;
    
     
 }
