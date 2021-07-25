@@ -108,6 +108,7 @@ nav > ul>li {
     margin-right: 100px;
     border-right-style: dotted;
     padding-right: 50px;
+    
    
     
 }
@@ -154,5 +155,14 @@ display: flex;
 .eat{
     text-align: center;
     padding: 50px;
-
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: black;
 }
