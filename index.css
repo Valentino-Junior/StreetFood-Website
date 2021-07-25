@@ -4,6 +4,7 @@
 }
 header{
     background-color:lightgray;
+    padding-bottom: 80px;
 }
 .food > h1 > span{
     color:#EAAB1B;
@@ -209,9 +210,20 @@ nav > ul > li > a{
     border-radius: 50%;
     bottom: 40%;
     left: 35%;
-    
-    
-    
 
-    
+}
+.image1{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 100px;
+}
+.image2{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.image3{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 15px;
 }
