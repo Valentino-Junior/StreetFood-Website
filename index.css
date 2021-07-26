@@ -189,7 +189,7 @@ nav > ul > li > a{
 
 #one >p,#two>p,#three>p,#four>p,#five>p,#six>p{
     float: right;
-    margin: 5px;
+    margin: 10px;
 text-align: center;
 width: 120px;
     height: 15px;
@@ -245,6 +245,6 @@ width: 120px;
 .image6{
     position: absolute;
     margin-left: 900px;
-    margin-top: 200px;
+    margin-top: 220px;
 
 }
