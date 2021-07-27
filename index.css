@@ -116,7 +116,7 @@ nav > ul>li {
 .day{
     float: left;
     margin-right: 100px;
-    border-right-style: dotted;
+    border-right-style: dotted black;
     padding-right: 50px;   
 }
 .numbers{
@@ -178,30 +178,28 @@ nav > ul > li > a{
 }
 .flex-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 80px;
+    flex-wrap: wrap; 
+    padding-bottom: 30px;
 }
 
-#one >p,#two>p,#three>p,#four>p,#five>p,#six>p{
-    float: right;
-    margin: 10px;
+#one >p,#two>p,#three>p,#four>p,#five>p,#six>p{ 
+ position: relative;
 text-align: center;
-width: 120px;
-    height: 15px;
-    
+width: 190px;
+margin-left: 90px;
+}
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6{
+    position: absolute;
+    margin-left: -80px;
 }
 
-.flex-container > #one, #two,#three,#four,#five,#six{
+#one, #two,#three,#four,#five,#six{
     background-color: white;
     border-bottom-right-radius: 40px; 
-    justify-content: space-between;
-    margin: 20px;
-    
-    
+    margin: 40px;
+    padding-bottom: 40px;
+    padding-right:40px; 
 }
-
-
 .eclipse{
     position: absolute;
     background-color: #649549;
@@ -211,7 +209,8 @@ width: 120px;
     border-radius: 50%;
     bottom: 30%;
     left: 35%;
-
+overflow: hidden;
+z-index: 0;
 }
 .image1{
     position: absolute;
@@ -260,7 +259,4 @@ border-color:lightgreen transparent;
 width: 400px;
 height: 300px;
 }
-.bg1 > h2{
-    position: relative;
-    margin-left: 100px;
-}
+
