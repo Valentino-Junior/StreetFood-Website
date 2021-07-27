@@ -134,21 +134,7 @@ footer{
     padding-top: 10px;
     padding-bottom: 150px;
 }
-#send2{
-    margin-left: 1150px;
-    text-align: center;
-padding-top: 80px;
-display: flex;
-}
-#send2 > p{
-    background-color: #6CB840;
-    background-clip: padding-box;
-    padding:5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: center;
-    color: white;   
-}
+
 .eat > h1{
     color: #EAAB1B;
     margin-left: 600px;
@@ -260,3 +246,26 @@ width: 400px;
 height: 300px;
 }
 
+.insta{
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 40px;
+}
+#send2 > p{
+    background-color: #6CB840;
+    background-clip: padding-box;
+    padding-top: 10px;
+padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 15px;
+    text-align: center;
+    color: white;
+    margin-left: 1150px; 
+    margin-top: 80px;
+    display: flex; 
+}
+.dayone{
+    border-right-style: dotted;
+    padding-right: 40px;
+
+}
