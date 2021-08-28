@@ -152,13 +152,13 @@ footer{
     text-align: center;
     margin-left: 600px;
 }
-nav > ul{
+.nave{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
 }
-nav > ul > li > a{
+.nave > li > a{
     text-decoration: none;
     color: black;
 }
@@ -268,4 +268,61 @@ padding-bottom: 10px;
     border-right-style: dotted;
     padding-right: 40px;
 
+}
+@media screen and (max-width: 582px){
+    .food p{
+       width: 200px;
+    } 
+    #order p{
+        background-color: #6CB840;
+        width: 100px;
+        padding: 3px 0px;
+        border-radius: 120px;  
+    }  
+    #hot2{
+        position: relative;
+        margin-left: 0px;
+    }
+    #hot2 p{
+        width: 220px;
+    }
+    .contact h1{
+        margin-left: 0px; 
+    }
+    .contact p{
+        margin-left: 0px; 
+    }
+    #email{
+        margin-left: 0px;  
+    }
+    #send{
+        margin-left: 0px; 
+}
+.numbers{
+    clear: left;
+}
+.insta{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 380px;
+}
+.eat p{
+    margin-left: 0px;
+}
+.eat h1{
+    margin-left: 0px;
+}
+.nave{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+}
+.logo{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -40px;
+    
+
+}
 }
